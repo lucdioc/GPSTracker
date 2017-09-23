@@ -1,6 +1,7 @@
 from gpsThread import gpsThread
 import math
 import _thread
+import machine
 
 def isMoving(seuilMouv=0.1, intervalle=1):
     lectureAccel=LIS2HH12()
